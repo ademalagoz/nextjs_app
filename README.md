@@ -38,7 +38,7 @@ Deployment: Vercel
 
 # **How to Use This Application**
 
-- Open the code and find the correct directory using with cd.. or cd .\file-explorer\, etc.
+- Download and open the code and find the correct directory using with cd.. or cd .\file-explorer\, etc.
 - Run the command `npm run dev` in the terminal.
 - Open [http://localhost:3000] to view it in your browser.
 - Click any folder on the root area and the same for other folders and files.
