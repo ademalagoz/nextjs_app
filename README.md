@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **About Programme**
 
-## Getting Started
+This application is a file or folder explorer/
+The web app would render a file explorer ui, with a hierarchical tree of folders which would allow the user to expand/collapse individual branches and view folder contents.
 
-First, run the development server:
+# **Technologies**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Language: JavaScript
+Front-End Framework: React-NextJS
+Library: Chonky
+Version Control: Git/Github
+Deployment: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# **Tasks**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Create Index, Search and chonkyActionHandler files in React and Nextjs.
+- Fetch the external data from API using the asynchronous function to fetch the data used with the secret key in the local environment.
+- Install, revised and implement the Chonky library.
+- Create a Nextjs Server Side Rendering getServerSideProps function.
+- Create callback functions in order to get convert the data types using (map.(), filter.(),slice() and destructor array methods.
+- Use React Hooks useState to store data and state, props for transferring, and useEffect to trigger the data.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# **Challenges**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- App must be created in Nextjs Server Side Rendering getServerSideProps function.
+- The api key has 6 call limit per minute.
+- The most important thing is that we have to convert the incoming data to Chonky library demand data.
+  -In some cases, some of the parent files have so many children files inside them.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# **Solution**
 
-## Learn More
+- In this task, we used the ` https://dev.test.sega.co.uk/api/list` api for fetching with a secret api key.
+- Created a handleSubmit function to use our using with Async/Await fetching api, filtering, and getting the solution.
+- We need to think about some delays when we fetch the api for the latency.
+- Created a callback function in order to convert the data for Chonky library requirements.
+- Used React Hooks useEffect, useState.
+- Finally, get the data and put the data into the Chonky library.
+- Deployed on Vercel link: https://adem-nextjs.vercel.app/ and source code is here: https://github.com/ademalagoz/nextjs_app.
 
-To learn more about Next.js, take a look at the following resources:
+# **How to Use This Application**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Open the code and find the correct directory using with cd.. or cd .\file-explorer\, etc.
+- Run the command `npm run dev` in the terminal.
+- Open [http://localhost:3000] to view it in your browser.
+- Click any folder on the root area and the same for other folders and files.
+- You can see on the app how many items and you can select them.
+- The page will reload with new folders and files when you refresh the page from the Rest Api.
+- If you want to search any folder or files you can use the search button on the left side.
+- To learn more about Next.js, take a look at the following resources [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API. [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
