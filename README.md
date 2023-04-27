@@ -1,7 +1,6 @@
 # **About Programme**
 
-This application is a file or folder explorer/
-The web app would render a file explorer ui, with a hierarchical tree of folders which would allow the user to expand/collapse individual branches and view folder contents.
+This application is a file or folder explorer.The web app would render a file explorer ui, with a hierarchical tree of folders which would allow the user to expand/collapse individual branches and view folder contents.
 
 # **Technologies**
 
