@@ -24,7 +24,7 @@ Deployment: Vercel
 - App must be created in Nextjs Server Side Rendering getServerSideProps function.
 - The api key has 6 call limit per minute.
 - The most important thing is that we have to convert the incoming data to Chonky library demand data.
-  -In some cases, some of the parent files have so many children files inside them.
+- In some cases, some of the parent files have so many children files inside them.
 
 # **Solution**
 
